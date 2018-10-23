@@ -1,0 +1,211 @@
+/*
+*	@Author: Zhang Kai;
+*	@Date: 2018-10-05 16:06;
+*	@Last Modified by: Zhang Kai;
+*	@Last Modified time: ;
+*/
+@charset "UTF-8";
+
+/*css initialization */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset, img, input, button {
+	border: none;
+	padding: 0;
+	margin: 0;
+	outline-style: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+input {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+select, input {
+	vertical-align: middle;
+}
+
+select, input, textarea {
+	font-size: 12px;
+	margin: 0;
+}
+
+textarea {
+	resize: none;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+body {
+	font: 12px Arial, Verdana, "\5b8b\4f53";
+	color: #666;
+	background: #eee;
+}
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;/*IE/7/6*/
+}
+
+h1, h2, h3, h4, h5, h6, a, a:hover {
+	text-decoration: none;
+}
+
+/*Public CSS*/
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.al {
+	text-align: left
+}
+
+.ac {
+	text-align: center
+}
+
+.ar {
+	text-align: right
+}
+
+.hide {
+	display: none
+}
+
+.center {
+	margin: 0 auto;
+}
+
+/* Nav CSS */
+div::selection, a::selection, h1::selection, span::selection, img::selection {
+	background-color: #f0ff00;
+	color: #666;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px 10px #ddd;
+	background-color: #ecf0f1;
+}
+
+header {
+	max-width: 1200px;
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+	box-shadow: 0 -20px 10px 10px #ddd;
+}
+
+header .logo, header .title {
+	padding-left: 25px;
+	line-height: 60px;
+}
+
+footer {
+	height: 80px;
+	width: 100%;
+	background-color: #2e3131;
+	color: #d2d7d3;
+	text-align: center;
+	margin: 20px 0;
+}
+
+footer h3 {
+	line-height: 80px;
+}
+
+footer h3 a {
+	color: #d2d7d3;
+}
+
+footer h3 a:hover {
+	color: #f0ff00;
+}
+
+.content {
+	margin-top: 60px;
+}
+
+.content a {
+	display: block;
+	color: inherit;
+	padding: 0 5px;
+	line-height: 32px;
+	height: 100%;
+}
+
+.content a:hover {
+	background-color: #e74c3c;
+	color: #fff;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 270px auto auto auto auto auto;
+	grid-column-gap: 0;
+	grid-row-gap: 6px;
+	padding-top: 12px;
+}
+
+.grid-container > div {
+	background-color: #fff;
+	text-align: center;	
+	font-size: 14px;
+	box-shadow: 0 0 5px 1px #ddd;	
+}
+
+.grid-container .grid-title {
+	position: relative;	
+	grid-row-start: 1;	
+	text-align: left;
+	color: #fff;
+	font-weight: 500;	
+	background-color: #eee;
+}
+
+.grid-container .grid-title img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.grid-container .grid-title span {
+	position: absolute;
+	width: 180px;
+	top: 0;
+	bottom: 0;
+	margin-left: 80px;
+	padding-left: 10px;
+	line-height: 32px;
+	background: #e74c3c;
+}
+
+.non-a {
+	padding-top: 8px;
+}
