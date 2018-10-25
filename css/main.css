@@ -254,8 +254,12 @@ footer h3 a:hover {
 	color: #fff;
 	line-height: 50px;	
 	font-size: 16px;
+	font-weight: bold;
 }
 
+.prod-alert a:hover {
+	cursor: pointer;
+}
 .confirm-btn {
 	background-color: #cf000f;
 	margin-left: 30px;
