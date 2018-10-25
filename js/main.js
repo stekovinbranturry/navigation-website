@@ -68,6 +68,26 @@ function constructDOM(obj) {
         $('a').attr('target', '_blank');
     });
 
+    /* Add confirmation alert for "PROD" url*/
+    $(function () {
+        $(`a:contains('PROD')`).on('click', function (e) {
+            e.preventDefault();
+
+            $('.popup').css('display', 'block');    //show popup
+
+            let url = $(this).attr('href');     //get url
+
+            $('.confirm-btn').attr({    //add href for confirm button
+                'href': url,
+                'target': '_blank'
+            });
+            
+            $('.cancel-btn').on('click', function() {   //add click function for cancel button
+                $('.popup').css('display', 'none');                
+            });
+        });
+
+    });
 }
 
 /* add dynamic scroll bar */

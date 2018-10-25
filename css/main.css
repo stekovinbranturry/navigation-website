@@ -217,3 +217,50 @@ footer h3 a:hover {
 .non-a {
 	padding-top: 8px;
 }
+
+.popup {
+	display: none;
+	position: fixed;
+	top: 65px;
+	z-index: 999;
+	width: 1200px;
+    height: 100%;
+	background-color: #fff9;
+}
+
+.prod-alert {
+	position: absolute;
+	width: 400px;
+	padding: 50px 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #ffcb05;
+	text-align: center;
+}
+
+.alert-desc {
+	margin-bottom: 20px;
+}
+
+.alert-desc h2 {
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.prod-alert a {
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;	
+	font-size: 16px;
+}
+
+.confirm-btn {
+	background-color: #cf000f;
+	margin-left: 30px;
+}
+
+.cancel-btn {
+	background-color: #2e3131;
+	margin-right: 30px;
+}
