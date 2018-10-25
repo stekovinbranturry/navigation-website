@@ -127,6 +127,14 @@ header .logo, header .title {
 	line-height: 60px;
 }
 
+.scroll-bar {
+	position: fixed;
+	top: 60px;
+	z-index: 999;
+	height: 5px;
+	background-image: linear-gradient(to right, #e74c3c00, #e74c3c);
+}
+
 footer {
 	height: 80px;
 	width: 100%;

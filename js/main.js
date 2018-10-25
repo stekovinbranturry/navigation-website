@@ -14,6 +14,7 @@ $(function() {
     xhr.onreadystatechange = () => {
         if (xhr.readyState == 4 && xhr.status == 200) {
             let obj = JSON.parse(xhr.responseText);
+            console.log(obj);
             constructDOM(obj);
         }
     }
@@ -30,6 +31,7 @@ function constructDOM(obj) {
                                     <div class="grid-container"></div>
                               </section>`;
             $('div.content').append(setSection);
+
             /* Grid Title */
             let getTitle = value.title;
             let setTitle = `<span>${getTitle}</span>`;
@@ -37,6 +39,7 @@ function constructDOM(obj) {
             let setIcon = `<img src="${getIcon}" alt="">`;
             let setGridTitle = `<div class="grid-title">${setIcon}${setTitle}</div>`;
             $(`#${key} .grid-container`).append(setGridTitle);
+
             /* Grid items */
             let getWebsite = value.website;
             for (value of getWebsite) {
@@ -45,6 +48,7 @@ function constructDOM(obj) {
                 let setGridItem = `<div><a href="${getUrl}">${getWebTitle}</a></div>`;
                 $(`#${key} .grid-container`).append(setGridItem);
             }
+            
             /*Change 'grid-row-end' CSS property for .grid-title */
             let titleRowEnd = Math.ceil(Object.keys(getWebsite).length / 6) + 1;
             $(`#${key} .grid-title`).css('grid-row-end', titleRowEnd.toString());
@@ -65,3 +69,16 @@ function constructDOM(obj) {
     });
 
 }
+
+/* add dynamic scroll bar */
+$(window).scroll(function() {
+    let htmlHeight = $('html').height();
+    let windowInnerHeight = window.innerHeight;
+    let windowInnerWidth = $('.container').width();
+    
+    let windowScrollY = window.scrollY;     // Get dynamic window scrollY 
+
+    let scrollBarWidth = windowScrollY / (htmlHeight - windowInnerHeight) * windowInnerWidth + 'px';   // Calculate scroll bar width
+
+    $('.scroll-bar').width(scrollBarWidth);
+});
