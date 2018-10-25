@@ -45,12 +45,12 @@ function constructDOM(obj) {
             for (value of getWebsite) {
                 let getWebTitle = value.webTitle;
                 let getUrl = value.url;
-                let setGridItem = `<div><a href="${getUrl}">${getWebTitle}</a></div>`;
+                let setGridItem = `<div><a href="${getUrl}" title="${getUrl}">${getWebTitle}</a></div>`;
                 $(`#${key} .grid-container`).append(setGridItem);
             }
             
             /*Change 'grid-row-end' CSS property for .grid-title */
-            let titleRowEnd = Math.ceil(Object.keys(getWebsite).length / 6) + 1;
+            let titleRowEnd = Math.ceil(getWebsite.length / 6) + 1;
             $(`#${key} .grid-title`).css('grid-row-end', titleRowEnd.toString());
         });
     
