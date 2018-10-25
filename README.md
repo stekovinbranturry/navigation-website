@@ -4,15 +4,15 @@
 ### Version history
 ---
 #### 1.0.0
-* initial commit
+1. initial commit
 ---
 #### 1.0.1
-* add icon/flag for each row
+1. add icon/flag for each row
 ---
 #### 1.0.2
-* add new row
-* beautify some CSS
+1. add new row
+2. beautify some CSS
 ---
 #### 1.0.3
-* add scroll bar
-* add confirmation alert for **PROD** url
+1. add scroll bar
+2. add confirmation alert for **PROD** url
