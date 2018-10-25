@@ -82,6 +82,10 @@ function constructDOM(obj) {
                 'target': '_blank'
             });
             
+            $('.confirm-btn').on('click', function() {   //add click function for confirm button
+                $('.popup').css('display', 'none');                
+            });            
+
             $('.cancel-btn').on('click', function() {   //add click function for cancel button
                 $('.popup').css('display', 'none');                
             });
