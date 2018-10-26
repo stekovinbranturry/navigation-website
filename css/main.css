@@ -50,12 +50,6 @@ table {
 	border-collapse: collapse;
 }
 
-body {
-	font: 12px Arial, Verdana, "\5b8b\4f53";
-	color: #666;
-	background: #eee;
-}
-
 .clearfix:before, .clearfix:after {
 	content: "";
 	display: table;
@@ -100,16 +94,31 @@ h1, h2, h3, h4, h5, h6, a, a:hover {
 }
 
 /* Nav CSS */
+:root {
+	--color-gallery: #eee;
+	--color-font: #666;
+	--color-red: #e74c3c;
+	--color-confirm: #cf000f;
+	--color-cancel: #2e3131;
+	--box-shadow: 0 -10px 10px 10px #ccc;
+}
+
+body {
+	font: 12px Arial, Verdana, "\5b8b\4f53";
+	color: var(--color-font);
+	background: var(--color-gallery) url('../img/bg1.jpg') no-repeat fixed center/cover;
+}
+
 div::selection, a::selection, h1::selection, span::selection, img::selection {
 	background-color: #f0ff00;
-	color: #666;
+	color: var(--color-font);
 }
 
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	box-shadow: 0 0 10px 10px #ddd;
-	background-color: #ecf0f1;
+	box-shadow: var(--box-shadow);
+	background-color: var(--color-gallery);
 }
 
 header {
@@ -119,7 +128,7 @@ header {
 	width: 100%;
 	top: 0;
 	z-index: 999;
-	box-shadow: 0 -20px 10px 10px #ddd;
+	box-shadow: var(--box-shadow);
 }
 
 header .logo, header .title {
@@ -132,7 +141,7 @@ header .logo, header .title {
 	top: 60px;
 	z-index: 999;
 	height: 5px;
-	background-image: linear-gradient(to right, #e74c3c00, #e74c3c);
+	background-color: var(--color-red);
 }
 
 footer {
@@ -169,7 +178,7 @@ footer h3 a:hover {
 }
 
 .content a:hover {
-	background-color: #e74c3c;
+	background-color: var(--color-red);
 	color: #fff;
 }
 
@@ -194,7 +203,7 @@ footer h3 a:hover {
 	text-align: left;
 	color: #fff;
 	font-weight: 500;	
-	background-color: #eee;
+	background-color: var(--color-gallery);
 }
 
 .grid-container .grid-title img {
@@ -211,7 +220,7 @@ footer h3 a:hover {
 	margin-left: 80px;
 	padding-left: 10px;
 	line-height: 32px;
-	background: #e74c3c;
+	background: var(--color-red);
 }
 
 .non-a {
@@ -261,11 +270,11 @@ footer h3 a:hover {
 	cursor: pointer;
 }
 .confirm-btn {
-	background-color: #cf000f;
+	background-color: var(--color-confirm);
 	margin-left: 30px;
 }
 
 .cancel-btn {
-	background-color: #2e3131;
+	background-color: var(--color-cancel);
 	margin-right: 30px;
 }
