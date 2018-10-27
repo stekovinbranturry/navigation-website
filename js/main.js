@@ -96,13 +96,13 @@ function constructDOM(obj) {
 
 /* add dynamic scroll bar */
 $(window).scroll(function() {
-    let htmlHeight = $('html').height();
+    let bodyHeight = $('body').height();
     let windowInnerHeight = window.innerHeight;
-    let windowInnerWidth = $('.container').width();
+    let containerWidth = $('.container').width();
     
     let windowScrollY = window.scrollY;     // Get dynamic window scrollY 
 
-    let scrollBarWidth = windowScrollY / (htmlHeight - windowInnerHeight) * windowInnerWidth + 'px';   // Calculate scroll bar width
+    let scrollBarWidth = windowScrollY / (bodyHeight - windowInnerHeight) * containerWidth + 'px';   // Calculate scroll bar width
 
     $('.scroll-bar').width(scrollBarWidth);
 });
