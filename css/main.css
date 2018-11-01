@@ -109,7 +109,7 @@ body {
 	background: var(--color-gallery) url('../img/bg1.jpg') no-repeat fixed center/cover;
 }
 
-div::selection, a::selection, h1::selection, span::selection, img::selection {
+::selection {
 	background-color: #f0ff00;
 	color: var(--color-font);
 }
