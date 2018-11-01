@@ -4,40 +4,40 @@
         "icon": "img/steria.png",
         "website": [
             {
-                "webTitle": "SSA Official Website",
-                "url": "https://www.soprasteria.sg/"
+                "web_title": "SSA Official Website",
+                "web_url": "https://www.soprasteria.sg/"
             },
             {
-                "webTitle": "Bugzilla",
-                "url": "http://change.steria.com.sg/index.cgi"
+                "web_title": "Bugzilla",
+                "web_url": "http://change.steria.com.sg/index.cgi"
             },
             {
-                "webTitle": "GitLab",
-                "url": "http://10.180.8.23/"
+                "web_title": "GitLab",
+                "web_url": "http://10.180.8.23/"
             },
             {
-                "webTitle": "Jenkins",
-                "url": "http://build.steria.com.sg/view/mcd..mds-git-Branches/"
+                "web_title": "Jenkins",
+                "web_url": "http://build.steria.com.sg/view/mcd..mds-git-Branches/"
             },
             {
-                "webTitle": "Jira",
-                "url": "https://us-jira.mcd.com"
+                "web_title": "Jira",
+                "web_url": "https://us-jira.mcd.com"
             },
             {
-                "webTitle": "OTL",
-                "url": "https://goo.gl/PVbupB"
+                "web_title": "OTL",
+                "web_url": "https://goo.gl/PVbupB"
             },
             {
-                "webTitle": "Service Cafe",
-                "url": "https://servicecafe.service-now.com/nav_to.do?uri=%2Fhome.do%3F"
+                "web_title": "Service Cafe",
+                "web_url": "https://servicecafe.service-now.com/nav_to.do?uri=%2Fhome.do%3F"
             },
             {
-                "webTitle": "Unit4 Prosoft HRMS",
-                "url": "https://ssa-ehr.steria.com.sg/web/"
+                "web_title": "Unit4 Prosoft HRMS",
+                "web_url": "https://ssa-ehr.steria.com.sg/web/"
             },
             {
-                "webTitle": "Yammer: Sopra Steria",
-                "url": "https://goo.gl/s88Wkc"
+                "web_title": "Yammer: Sopra Steria",
+                "web_url": "https://goo.gl/s88Wkc"
             }
         ]
     },
@@ -46,24 +46,24 @@
         "icon": "img/steria.png",
         "website": [
             {
-                "webTitle": "Leave Form",
-                "url": "downloads/leave.pdf"
+                "web_title": "Leave Form",
+                "web_url": "downloads/leave.pdf"
             },
             {
-                "webTitle": "MC Form",
-                "url": "downloads/mc.pdf"
+                "web_title": "MC Form",
+                "web_url": "downloads/mc.pdf"
             },
             {
-                "webTitle": "PPT Template",
-                "url": "downloads/template.pptx"
+                "web_title": "PPT Template",
+                "web_url": "downloads/template.pptx"
             },
             {
-                "webTitle": "Clinic List",
-                "url": "downloads/clinic.xlsx"
+                "web_title": "Clinic List",
+                "web_url": "downloads/clinic.xlsx"
             },
             {
-                "webTitle": "Reimbursement Excel",
-                "url": "downloads/reimbursement.xls"
+                "web_title": "Reimbursement Excel",
+                "web_url": "downloads/reimbursement.xls"
             }
         ]
     },
@@ -72,8 +72,8 @@
         "icon": "img/mcd.png",
         "website": [
             {
-                "webTitle": "TST Config",
-                "url": "https://mcdelivery-tst.mcdonalds.com/config/"
+                "web_title": "TST Config",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/config/"
             }
         ]
     },
@@ -82,16 +82,16 @@
         "icon": "img/mcd.png",
         "website": [
             {
-                "webTitle": "SGDC (KLDC)",
-                "url": "file://10.180.8.9/Projects/Singapore/Transport/Road/DISPATCH/McDonalds/MDSWO/PDF%20-%20Product%20File/XXX%20-%20Maintenance/kldc.html"
+                "web_title": "SGDC (KLDC)",
+                "web_url": "file://10.180.8.9/Projects/Singapore/Transport/Road/DISPATCH/McDonalds/MDSWO/PDF%20-%20Product%20File/XXX%20-%20Maintenance/kldc.html"
             },
             {
-                "webTitle": "All Server Layout",
-                "url": "file://10.180.8.9/Projects/Singapore/Transport/Road/DISPATCH/McDonalds/MDSWO/PDF%20-%20Product%20File/XXX%20-%20Maintenance/WSL%20-%20WOS%20Server%20Layout%20&%20URL/server-layout.html"
+                "web_title": "All Server Layout",
+                "web_url": "file://10.180.8.9/Projects/Singapore/Transport/Road/DISPATCH/McDonalds/MDSWO/PDF%20-%20Product%20File/XXX%20-%20Maintenance/WSL%20-%20WOS%20Server%20Layout%20&%20URL/server-layout.html"
             },
             {
-                "webTitle": "Test Card",
-                "url": "file://10.180.8.9/Projects/Singapore/Transport/Road/DISPATCH/McDonalds/MDSWO/IDF%20-%20Internal%20Document%20File/M4D/InternalQA/Template%20and%20Documents/test-card.html"
+                "web_title": "Test Card",
+                "web_url": "file://10.180.8.9/Projects/Singapore/Transport/Road/DISPATCH/McDonalds/MDSWO/IDF%20-%20Internal%20Document%20File/M4D/InternalQA/Template%20and%20Documents/test-card.html"
             }
         ]
     },
@@ -100,24 +100,24 @@
         "icon": "img/mcd.png",
         "website": [
             {
-                "webTitle": "Jeddah mWOS4.0 TST",
-                "url": "https://mcdelivery-tst.mcdonalds.com/m/sa/jed400/mobile/login.html"
+                "web_title": "Jeddah mWOS4.0 TST",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/m/sa/jed400/mobile/login.html"
             },
             {
-                "webTitle": "Offer Wallet TW TST",
-                "url": "https://mcdelivery-tst.mcdonalds.com/tw300OW/home.html"
+                "web_title": "Offer Wallet TW TST",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/tw300OW/home.html"
             },
             {
-                "webTitle": "Offer Wallet JO TST",
-                "url": "https://mcdelivery-tst.mcdonalds.com/joOW/"
+                "web_title": "Offer Wallet JO TST",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/joOW/"
             },
             {
-                "webTitle": "Offer Wallet VN TST",
-                "url": "https://mcdelivery-tst.mcdonalds.com/vnOW/"
+                "web_title": "Offer Wallet VN TST",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/vnOW/"
             },
             {
-                "webTitle": "Offer Wallet TST Config",
-                "url": "https://mcdelivery-tst.mcdonalds.com/configOW/"
+                "web_title": "Offer Wallet TST Config",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/configOW/"
             }
         ]
     },
@@ -126,24 +126,24 @@
         "icon": "img/my.png",
         "website": [
             {
-                "webTitle": "MY TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/my400/"
+                "web_title": "MY TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/my400/"
             },
             {
-                "webTitle": "MY STG WOS",
-                "url": "https://mcdelivery-stg.mcdonalds.com/my400/"
+                "web_title": "MY STG WOS",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/my400/"
             },
             {
-                "webTitle": "MY STG Config",
-                "url": "https://mcdelivery-stg.mcdonalds.com/config/my400/"
+                "web_title": "MY STG Config",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/config/my400/"
             },
             {
-                "webTitle": "MY PROD WOS",
-                "url": "https://www.mcdelivery.com.my/my/"
+                "web_title": "MY PROD WOS",
+                "web_url": "https://www.mcdelivery.com.my/my/"
             },
             {
-                "webTitle": "MY PROD Config",
-                "url": "https://www.mcdelivery.com.my/config/my300/"
+                "web_title": "MY PROD Config",
+                "web_url": "https://www.mcdelivery.com.my/config/my300/"
             }
         ]
     },
@@ -152,24 +152,24 @@
         "icon": "img/id.png",
         "website": [
             {
-                "webTitle": "ID TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/id300/"
+                "web_title": "ID TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/id300/"
             },
             {
-                "webTitle": "ID STG WOS",
-                "url": "https://mds.mcdindonesia.com/id300/"
+                "web_title": "ID STG WOS",
+                "web_url": "https://mds.mcdindonesia.com/id300/"
             },
             {
-                "webTitle": "ID STG Config",
-                "url": "https://mds.mcdindonesia.com/config/"
+                "web_title": "ID STG Config",
+                "web_url": "https://mds.mcdindonesia.com/config/"
             },
             {
-                "webTitle": "ID PROD WOS",
-                "url": "https://mcdelivery.co.id/id/"
+                "web_title": "ID PROD WOS",
+                "web_url": "https://mcdelivery.co.id/id/"
             },
             {
-                "webTitle": "ID PROD Config",
-                "url": "https://mcdelivery.co.id/config/"
+                "web_title": "ID PROD Config",
+                "web_url": "https://mcdelivery.co.id/config/"
             }
         ]
     },
@@ -178,24 +178,24 @@
         "icon": "img/sg.png",
         "website": [
             {
-                "webTitle": "SG TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/sg300REST/"
+                "web_title": "SG TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/sg300REST/"
             },
             {
-                "webTitle": "SG STG WOS",
-                "url": "https://mcdelivery-stg.mcdonalds.com/sg300/"
+                "web_title": "SG STG WOS",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/sg300/"
             },
             {
-                "webTitle": "SG STG Config",
-                "url": "https://mcdelivery-stg.mcdonalds.com/config/sg300/"
+                "web_title": "SG STG Config",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/config/sg300/"
             },
             {
-                "webTitle": "SG PROD WOS",
-                "url": "https://www.mcdelivery.com.sg/sg/"
+                "web_title": "SG PROD WOS",
+                "web_url": "https://www.mcdelivery.com.sg/sg/"
             },
             {
-                "webTitle": "SG PROD Config",
-                "url": "https://www.mcdelivery.com.sg/config/sg300/"
+                "web_title": "SG PROD Config",
+                "web_url": "https://www.mcdelivery.com.sg/config/sg300/"
             }
         ]
     },
@@ -204,24 +204,24 @@
         "icon": "img/jp.png",
         "website": [
             {
-                "webTitle": "JP TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/jp300/"
+                "web_title": "JP TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/jp300/"
             },
             {
-                "webTitle": "JP STG WOS",
-                "url": "https://mcdelivery-stg.mcdonalds.com/jp300/"
+                "web_title": "JP STG WOS",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/jp300/"
             },
             {
-                "webTitle": "JP STG Config",
-                "url": "https://mcdelivery-stg.mcdonalds.com/config/jp300/"
+                "web_title": "JP STG Config",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/config/jp300/"
             },
             {
-                "webTitle": "JP PROD WOS",
-                "url": "https://mcdelivery.mcdonalds.com/jp/"
+                "web_title": "JP PROD WOS",
+                "web_url": "https://mcdelivery.mcdonalds.com/jp/"
             },
             {
-                "webTitle": "JP PROD Config",
-                "url": "https://mcdelivery.mcdonalds.com/config/jp300/"
+                "web_title": "JP PROD Config",
+                "web_url": "https://mcdelivery.mcdonalds.com/config/jp300/"
             }
         ]
     },
@@ -230,24 +230,24 @@
         "icon": "img/kr.png",
         "website": [
             {
-                "webTitle": "KR TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/kr300/"
+                "web_title": "KR TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/kr300/"
             },
             {
-                "webTitle": "KR STG WOS",
-                "url": "https://mcdeliverykrstg.mcd.com/kr/"
+                "web_title": "KR STG WOS",
+                "web_url": "https://mcdeliverykrstg.mcd.com/kr/"
             },
             {
-                "webTitle": "KR STG Config",
-                "url": "https://mcdeliverykrstg.mcd.com/config/kr/"
+                "web_title": "KR STG Config",
+                "web_url": "https://mcdeliverykrstg.mcd.com/config/kr/"
             },
             {
-                "webTitle": "KR PROD WOS",
-                "url": "https://www.mcdelivery.co.kr/kr/"
+                "web_title": "KR PROD WOS",
+                "web_url": "https://www.mcdelivery.co.kr/kr/"
             },
             {
-                "webTitle": "KR PROD Config",
-                "url": "https://www.mcdelivery.co.kr/config/"
+                "web_title": "KR PROD Config",
+                "web_url": "https://www.mcdelivery.co.kr/config/"
             }
         ]
     },
@@ -256,24 +256,24 @@
         "icon": "img/vn.png",
         "website": [
             {
-                "webTitle": "VN TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/vn300/"
+                "web_title": "VN TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/vn300/"
             },
             {
-                "webTitle": "VN STG WOS",
-                "url": "http://mdsstg.goodday.vn/vn/"
+                "web_title": "VN STG WOS",
+                "web_url": "http://mdsstg.goodday.vn/vn/"
             },
             {
-                "webTitle": "VN STG Config",
-                "url": "http://mdsstg.goodday.vn/config/"
+                "web_title": "VN STG Config",
+                "web_url": "http://mdsstg.goodday.vn/config/"
             },
             {
-                "webTitle": "VN PROD WOS",
-                "url": "https://mcdelivery.vn/vn/"
+                "web_title": "VN PROD WOS",
+                "web_url": "https://mcdelivery.vn/vn/"
             },
             {
-                "webTitle": "VN PROD Config",
-                "url": "https://mcdelivery.vn/config/"
+                "web_title": "VN PROD Config",
+                "web_url": "https://mcdelivery.vn/config/"
             }
         ]
     },
@@ -282,24 +282,24 @@
         "icon": "img/cn.png",
         "website": [
             {
-                "webTitle": "CN TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/cn300/"
+                "web_title": "CN TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/cn300/"
             },
             {
-                "webTitle": "CN STG WOS",
-                "url": "https://cnstg-wos.4008-517-517.cn/cn/"
+                "web_title": "CN STG WOS",
+                "web_url": "https://cnstg-wos.4008-517-517.cn/cn/"
             },
             {
-                "webTitle": "CN STG Config",
-                "url": "https://cnstg-wos.4008-517-517.cn/config/"
+                "web_title": "CN STG Config",
+                "web_url": "https://cnstg-wos.4008-517-517.cn/config/"
             },
             {
-                "webTitle": "CN PROD WOS",
-                "url": "https://www.4008-517-517.cn/cn/"
+                "web_title": "CN PROD WOS",
+                "web_url": "https://www.4008-517-517.cn/cn/"
             },
             {
-                "webTitle": "CN PROD Config",
-                "url": "https://www.4008-517-517.cn/config/"
+                "web_title": "CN PROD Config",
+                "web_url": "https://www.4008-517-517.cn/config/"
             }
         ]
     },
@@ -308,24 +308,24 @@
         "icon": "img/tw.png",
         "website": [
             {
-                "webTitle": "TW TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/tw300/"
+                "web_title": "TW TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/tw300/"
             },
             {
-                "webTitle": "TW STG WOS",
-                "url": "https://mcdelivery-stg.mcdonalds.com/tw300/"
+                "web_title": "TW STG WOS",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/tw300/"
             },
             {
-                "webTitle": "TW STG Config",
-                "url": "https://mcdelivery-stg.mcdonalds.com/config/tw300/"
+                "web_title": "TW STG Config",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/config/tw300/"
             },
             {
-                "webTitle": "TW PROD WOS",
-                "url": "https://www.mcdelivery.com.tw/tw/"
+                "web_title": "TW PROD WOS",
+                "web_url": "https://www.mcdelivery.com.tw/tw/"
             },
             {
-                "webTitle": "TW PROD Config",
-                "url": "https://www.mcdelivery.com.tw/config/tw300/"
+                "web_title": "TW PROD Config",
+                "web_url": "https://www.mcdelivery.com.tw/config/tw300/"
             }
         ]
     },
@@ -334,24 +334,24 @@
         "icon": "img/in.png",
         "website": [
             {
-                "webTitle": "IN TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/in/del300/"
+                "web_title": "IN TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/in/del300/"
             },
             {
-                "webTitle": "IN STG WOS",
-                "url": "http://staging.mcdeliveryonline.com/indelhi300/"
+                "web_title": "IN STG WOS",
+                "web_url": "http://staging.mcdeliveryonline.com/indelhi300/"
             },
             {
-                "webTitle": "IN STG Config",
-                "url": "http://staging.mcdeliveryonline.com/config/"
+                "web_title": "IN STG Config",
+                "web_url": "http://staging.mcdeliveryonline.com/config/"
             },
             {
-                "webTitle": "IN PROD WOS",
-                "url": "https://www.mcdeliveryonline.com/indelhi/"
+                "web_title": "IN PROD WOS",
+                "web_url": "https://www.mcdeliveryonline.com/indelhi/"
             },
             {
-                "webTitle": "IN PROD Config",
-                "url": "https://www.mcdeliveryonline.com/config/"
+                "web_title": "IN PROD Config",
+                "web_url": "https://www.mcdeliveryonline.com/config/"
             }
         ]
     },
@@ -360,24 +360,24 @@
         "icon": "img/pk.png",
         "website": [
             {
-                "webTitle": "PK TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/pk300/"
+                "web_title": "PK TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/pk300/"
             },
             {
-                "webTitle": "PK STG WOS",
-                "url": "https://mcdelivery-staging.com/pk300/"
+                "web_title": "PK STG WOS",
+                "web_url": "https://mcdelivery-staging.com/pk300/"
             },
             {
-                "webTitle": "PK STG Config",
-                "url": "https://mcdelivery-staging.com/config/"
+                "web_title": "PK STG Config",
+                "web_url": "https://mcdelivery-staging.com/config/"
             },
             {
-                "webTitle": "PK PROD WOS",
-                "url": "https://www.mcdelivery.com.pk/pk/"
+                "web_title": "PK PROD WOS",
+                "web_url": "https://www.mcdelivery.com.pk/pk/"
             },
             {
-                "webTitle": "PK PROD Config",
-                "url": "https://www.mcdelivery.com.pk/config/"
+                "web_title": "PK PROD Config",
+                "web_url": "https://www.mcdelivery.com.pk/config/"
             }
         ]
     },
@@ -386,24 +386,24 @@
         "icon": "img/lk.png",
         "website": [
             {
-                "webTitle": "LK TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/lk300/"
+                "web_title": "LK TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/lk300/"
             },
             {
-                "webTitle": "LK STG WOS",
-                "url": "http://220.247.213.134/lk300/"
+                "web_title": "LK STG WOS",
+                "web_url": "http://220.247.213.134/lk300/"
             },
             {
-                "webTitle": "LK STG Config",
-                "url": "http://220.247.213.134/config/"
+                "web_title": "LK STG Config",
+                "web_url": "http://220.247.213.134/config/"
             },
             {
-                "webTitle": "LK PROD WOS",
-                "url": "https://www.mcdelivery.lk/lk/"
+                "web_title": "LK PROD WOS",
+                "web_url": "https://www.mcdelivery.lk/lk/"
             },
             {
-                "webTitle": "LK PROD Config",
-                "url": "https://www.mcdelivery.lk/config/"
+                "web_title": "LK PROD Config",
+                "web_url": "https://www.mcdelivery.lk/config/"
             }
         ]
     },
@@ -412,24 +412,24 @@
         "icon": "img/lb.png",
         "website": [
             {
-                "webTitle": "LB TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/lb300/"
+                "web_title": "LB TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/lb300/"
             },
             {
-                "webTitle": "LB STG WOS",
-                "url": "http://62.84.73.237/lb300/"
+                "web_title": "LB STG WOS",
+                "web_url": "http://62.84.73.237/lb300/"
             },
             {
-                "webTitle": "LB STG Config",
-                "url": "http://62.84.73.237/config/"
+                "web_title": "LB STG Config",
+                "web_url": "http://62.84.73.237/config/"
             },
             {
-                "webTitle": "LB PROD WOS",
-                "url": "https://mcdelivery.mcdonalds.com.lb/lb/"
+                "web_title": "LB PROD WOS",
+                "web_url": "https://mcdelivery.mcdonalds.com.lb/lb/"
             },
             {
-                "webTitle": "LB PROD Config",
-                "url": "https://mcdelivery.mcdonalds.com.lb/config/"
+                "web_title": "LB PROD Config",
+                "web_url": "https://mcdelivery.mcdonalds.com.lb/config/"
             }
         ]
     },
@@ -438,24 +438,24 @@
         "icon": "img/jo.png",
         "website": [
             {
-                "webTitle": "JO TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/jo400/"
+                "web_title": "JO TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/jo400/"
             },
             {
-                "webTitle": "JO STG WOS",
-                "url": "https://staging.mcdjo.com/jo400/"
+                "web_title": "JO STG WOS",
+                "web_url": "https://staging.mcdjo.com/jo400/"
             },
             {
-                "webTitle": "JO STG Config",
-                "url": "https://staging.mcdjo.com/config/"
+                "web_title": "JO STG Config",
+                "web_url": "https://staging.mcdjo.com/config/"
             },
             {
-                "webTitle": "JO PROD WOS",
-                "url": "https://www.mcdelivery.jo/jo/"
+                "web_title": "JO PROD WOS",
+                "web_url": "https://www.mcdelivery.jo/jo/"
             },
             {
-                "webTitle": "JO PROD Config",
-                "url": "https://www.mcdelivery.jo/config/"
+                "web_title": "JO PROD Config",
+                "web_url": "https://www.mcdelivery.jo/config/"
             }
         ]
     },
@@ -464,24 +464,24 @@
         "icon": "img/kw.png",
         "website": [
             {
-                "webTitle": "KW TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/kw300/"
+                "web_title": "KW TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/kw300/"
             },
             {
-                "webTitle": "KW STG WOS",
-                "url": " https://apps.mcdonalds-kuwait.com/kw300/"
+                "web_title": "KW STG WOS",
+                "web_url": " https://apps.mcdonalds-kuwait.com/kw300/"
             },
             {
-                "webTitle": "KW STG Config",
-                "url": " https://apps.mcdonalds-kuwait.com/config/"
+                "web_title": "KW STG Config",
+                "web_url": " https://apps.mcdonalds-kuwait.com/config/"
             },
             {
-                "webTitle": "KW PROD WOS",
-                "url": "https://www.mcdelivery.com.kw/kw/"
+                "web_title": "KW PROD WOS",
+                "web_url": "https://www.mcdelivery.com.kw/kw/"
             },
             {
-                "webTitle": "KW PROD Config",
-                "url": "https://www.mcdelivery.com.kw/config/"
+                "web_title": "KW PROD Config",
+                "web_url": "https://www.mcdelivery.com.kw/config/"
             }
         ]
     },
@@ -490,24 +490,24 @@
         "icon": "img/sa.png",
         "website": [
             {
-                "webTitle": "RIY TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/sa/riy400/"
+                "web_title": "RIY TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/sa/riy400/"
             },
             {
-                "webTitle": "RIY STG WOS",
-                "url": "https://riyadh-mcdelivery-stg.mcdonalds.com.sa/sa/riy400/"
+                "web_title": "RIY STG WOS",
+                "web_url": "https://riyadh-mcdelivery-stg.mcdonalds.com.sa/sa/riy400/"
             },
             {
-                "webTitle": "RIY STG Config",
-                "url": "https://riyadh-mcdelivery-stg.mcdonalds.com.sa/config/"
+                "web_title": "RIY STG Config",
+                "web_url": "https://riyadh-mcdelivery-stg.mcdonalds.com.sa/config/"
             },
             {
-                "webTitle": "RIY PROD WOS",
-                "url": "https://www.riyadh.mcdelivery.com.sa/sa/riy/"
+                "web_title": "RIY PROD WOS",
+                "web_url": "https://www.riyadh.mcdelivery.com.sa/sa/riy/"
             },
             {
-                "webTitle": "RIY PROD Config",
-                "url": "https://www.riyadh.mcdelivery.com.sa/config/"
+                "web_title": "RIY PROD Config",
+                "web_url": "https://www.riyadh.mcdelivery.com.sa/config/"
             }
         ]
     },
@@ -516,24 +516,24 @@
         "icon": "img/sa.png",
         "website": [
             {
-                "webTitle": "JED TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/sa/jed300/"
+                "web_title": "JED TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/sa/jed300/"
             },
             {
-                "webTitle": "JED STG WOS",
-                "url": "https://mcdelivery-stg.rezafood.com.sa/sa/jed300/"
+                "web_title": "JED STG WOS",
+                "web_url": "https://mcdelivery-stg.rezafood.com.sa/sa/jed300/"
             },
             {
-                "webTitle": "JED STG Config",
-                "url": "https://mcdelivery-stg.rezafood.com.sa/config/"
+                "web_title": "JED STG Config",
+                "web_url": "https://mcdelivery-stg.rezafood.com.sa/config/"
             },
             {
-                "webTitle": "JED PROD WOS",
-                "url": "https://jeddah.mcdelivery.com.sa/sa/jed/"
+                "web_title": "JED PROD WOS",
+                "web_url": "https://jeddah.mcdelivery.com.sa/sa/jed/"
             },
             {
-                "webTitle": "JED PROD Config",
-                "url": "https://jeddah.mcdelivery.com.sa/config/"
+                "web_title": "JED PROD Config",
+                "web_url": "https://jeddah.mcdelivery.com.sa/config/"
             }
         ]
     },
@@ -542,24 +542,24 @@
         "icon": "img/uae.png",
         "website": [
             {
-                "webTitle": "UAE TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/ae300/"
+                "web_title": "UAE TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/ae300/"
             },
             {
-                "webTitle": "UAE STG WOS",
-                "url": "https://uaemdsstg.mcdonalds-uae.com/ae300/"
+                "web_title": "UAE STG WOS",
+                "web_url": "https://uaemdsstg.mcdonalds-uae.com/ae300/"
             },
             {
-                "webTitle": "UAE STG Config",
-                "url": "https://uaemdsstg.mcdonalds-uae.com/config/"
+                "web_title": "UAE STG Config",
+                "web_url": "https://uaemdsstg.mcdonalds-uae.com/config/"
             },
             {
-                "webTitle": "UAE PROD WOS",
-                "url": "https://www.mcdelivery.ae/ae/"
+                "web_title": "UAE PROD WOS",
+                "web_url": "https://www.mcdelivery.ae/ae/"
             },
             {
-                "webTitle": "UAE PROD Config",
-                "url": "https://www.mcdelivery.ae/config/"
+                "web_title": "UAE PROD Config",
+                "web_url": "https://www.mcdelivery.ae/config/"
             }
         ]
     },
@@ -568,24 +568,24 @@
         "icon": "img/bh.png",
         "website": [
             {
-                "webTitle": "BH TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/bh300/"
+                "web_title": "BH TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/bh300/"
             },
             {
-                "webTitle": "BH STG WOS",
-                "url": "http://mds.mcdbah.com/bh300/"
+                "web_title": "BH STG WOS",
+                "web_url": "http://mds.mcdbah.com/bh300/"
             },
             {
-                "webTitle": "BH STG Config",
-                "url": "https://mds.mcdbah.com/config/"
+                "web_title": "BH STG Config",
+                "web_url": "https://mds.mcdbah.com/config/"
             },
             {
-                "webTitle": "BH PROD WOS",
-                "url": "https://www.mcdelivery.com.bh/bh/"
+                "web_title": "BH PROD WOS",
+                "web_url": "https://www.mcdelivery.com.bh/bh/"
             },
             {
-                "webTitle": "BH PROD Config",
-                "url": "https://www.mcdelivery.com.bh/config/"
+                "web_title": "BH PROD Config",
+                "web_url": "https://www.mcdelivery.com.bh/config/"
             }
         ]
     },
@@ -594,24 +594,24 @@
         "icon": "img/qa.png",
         "website": [
             {
-                "webTitle": "QA TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/qa300/"
+                "web_title": "QA TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/qa300/"
             },
             {
-                "webTitle": "QA STG WOS",
-                "url": "https://www.mcdeliverystaging-qa.com/qa300/"
+                "web_title": "QA STG WOS",
+                "web_url": "https://www.mcdeliverystaging-qa.com/qa300/"
             },
             {
-                "webTitle": "QA STG Config",
-                "url": "https://www.mcdeliverystaging-qa.com/config/"
+                "web_title": "QA STG Config",
+                "web_url": "https://www.mcdeliverystaging-qa.com/config/"
             },
             {
-                "webTitle": "QA PROD WOS",
-                "url": "https://www.mcdelivery.qa/qa/"
+                "web_title": "QA PROD WOS",
+                "web_url": "https://www.mcdelivery.qa/qa/"
             },
             {
-                "webTitle": "QA PROD Config",
-                "url": "https://www.mcdelivery.qa/config/"
+                "web_title": "QA PROD Config",
+                "web_url": "https://www.mcdelivery.qa/config/"
             }
         ]
     },
@@ -620,24 +620,24 @@
         "icon": "img/eg.png",
         "website": [
             {
-                "webTitle": "EG TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/eg300/"
+                "web_title": "EG TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/eg300/"
             },
             {
-                "webTitle": "EG STG WOS",
-                "url": "http://41.187.104.19/eg300/"
+                "web_title": "EG STG WOS",
+                "web_url": "http://41.187.104.19/eg300/"
             },
             {
-                "webTitle": "EG STG Config",
-                "url": "http://41.187.104.19/config/"
+                "web_title": "EG STG Config",
+                "web_url": "http://41.187.104.19/config/"
             },
             {
-                "webTitle": "EG PROD WOS",
-                "url": "https://www.mcdelivery.eg/eg/"
+                "web_title": "EG PROD WOS",
+                "web_url": "https://www.mcdelivery.eg/eg/"
             },
             {
-                "webTitle": "EG PROD Config",
-                "url": "https://www.mcdelivery.eg/config/"
+                "web_title": "EG PROD Config",
+                "web_url": "https://www.mcdelivery.eg/config/"
             }
         ]
     },
@@ -646,24 +646,24 @@
         "icon": "img/za.png",
         "website": [
             {
-                "webTitle": "ZA TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/za300/"
+                "web_title": "ZA TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/za300/"
             },
             {
-                "webTitle": "ZA STG WOS",
-                "url": "https://mcdeliverystgsa.co.za/za300/"
+                "web_title": "ZA STG WOS",
+                "web_url": "https://mcdeliverystgsa.co.za/za300/"
             },
             {
-                "webTitle": "ZA STG Config",
-                "url": "https://mcdeliverystgsa.co.za/config/"
+                "web_title": "ZA STG Config",
+                "web_url": "https://mcdeliverystgsa.co.za/config/"
             },
             {
-                "webTitle": "ZA PROD WOS",
-                "url": "https://www.mcdeliverysa.co.za/za/"
+                "web_title": "ZA PROD WOS",
+                "web_url": "https://www.mcdeliverysa.co.za/za/"
             },
             {
-                "webTitle": "ZA PROD Config",
-                "url": "https://www.mcdeliverysa.co.za/config/"
+                "web_title": "ZA PROD Config",
+                "web_url": "https://www.mcdeliverysa.co.za/config/"
             }
         ]
     },
@@ -672,24 +672,24 @@
         "icon": "img/cy.png",
         "website": [
             {
-                "webTitle": "CY TST WOS",
-                "url": "https://mcdelivery-tst.mcdonalds.com/cy300/"
+                "web_title": "CY TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/cy300/"
             },
             {
-                "webTitle": "CY STG WOS",
-                "url": "https://mcdeliverystaging.mcdonalds.com.cy/cy300/"
+                "web_title": "CY STG WOS",
+                "web_url": "https://mcdeliverystaging.mcdonalds.com.cy/cy300/"
             },
             {
-                "webTitle": "CY STG Config",
-                "url": "https://mcdeliverystaging.mcdonalds.com.cy/config/"
+                "web_title": "CY STG Config",
+                "web_url": "https://mcdeliverystaging.mcdonalds.com.cy/config/"
             },
             {
-                "webTitle": "CY PROD WOS",
-                "url": "https://www.mcdelivery.com.cy/cy/"
+                "web_title": "CY PROD WOS",
+                "web_url": "https://www.mcdelivery.com.cy/cy/"
             },
             {
-                "webTitle": "CY PROD Config",
-                "url": "https://www.mcdelivery.com.cy/config/"
+                "web_title": "CY PROD Config",
+                "web_url": "https://www.mcdelivery.com.cy/config/"
             }
         ]
     }

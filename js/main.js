@@ -1,8 +1,8 @@
 /*
  * @Author: Zhang Kai;
  * @Date: 2018-10-05 16:06;
- * @Last Modified by: Zhang Kai;
- * @Last Modified time: ;
+ * @Last Modified by:   ZHANG Kai
+ * @Last Modified time: 2018-11-01 11:06:09
  */
 
 $(function() {
@@ -43,8 +43,8 @@ function constructDOM(obj) {
             /* Grid items */
             let getWebsite = value.website;
             for (value of getWebsite) {
-                let getWebTitle = value.webTitle;
-                let getUrl = value.url;
+                let getWebTitle = value.web_title;
+                let getUrl = value.web_url;
                 let setGridItem = `<div><a href="${getUrl}" title="${getUrl}">${getWebTitle}</a></div>`;
                 $(`#${key} .grid-container`).append(setGridItem);
             }
