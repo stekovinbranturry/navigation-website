@@ -100,10 +100,6 @@
         "icon": "img/mcd.png",
         "website": [
             {
-                "web_title": "Jeddah mWOS4.0 TST",
-                "web_url": "https://mcdelivery-tst.mcdonalds.com/m/sa/jed400/mobile/login.html"
-            },
-            {
                 "web_title": "Offer Wallet TW TST",
                 "web_url": "https://mcdelivery-tst.mcdonalds.com/tw300OW/home.html"
             },
@@ -517,11 +513,11 @@
         "website": [
             {
                 "web_title": "JED TST WOS",
-                "web_url": "https://mcdelivery-tst.mcdonalds.com/sa/jed300/"
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/sa/jed400/"
             },
             {
                 "web_title": "JED STG WOS",
-                "web_url": "https://mcdelivery-stg.rezafood.com.sa/sa/jed300/"
+                "web_url": "https://mcdelivery-stg.rezafood.com.sa/sa/jed400/"
             },
             {
                 "web_title": "JED STG Config",

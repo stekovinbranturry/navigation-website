@@ -1,26 +1,29 @@
 /*
- * @Author: Zhang Kai;
- * @Date: 2018-10-05 16:06;
+ * @Author:             ZHANG Kai
+ * @Date:               2018-10-05 16:06:01
  * @Last Modified by:   ZHANG Kai
- * @Last Modified time: 2018-11-01 11:06:09
+ * @Last Modified time: 2018-11-14 11:59:39
  */
 
-$(function() {
-    /* Create XMLHttpRequest object*/
-    let xhr = window.XMLHttpRequest? new XMLHttpRequest(): new ActiveXObject('Microsoft.XHMHTTP');
-
-    xhr.open('GET', 'js/url.json');
-
-    xhr.onreadystatechange = () => {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            let obj = JSON.parse(xhr.responseText);
-            console.log(obj);
-            constructDOM(obj);
-        }
-    }
-    xhr.send(null);
-
-});
+$(function () {
+    $.ajax({
+        url: 'js/url.json',
+        type: 'GET',
+        cache: false,
+        dataType: 'json',
+    })
+    .done(function(data) {
+        console.log(data);
+        constructDOM(data);
+    })
+    .fail(function() {
+        console.log("error");
+    })
+    .always(function() {
+        console.log("complete");
+    });
+    
+})
 
 function constructDOM(obj) {
 
@@ -80,9 +83,8 @@ function constructDOM(obj) {
             $('.confirm-btn').attr({    //add href for confirm button
                 'href': url,
                 'target': '_blank'
-            });
-            
-            $('.confirm-btn').on('click', function() {   //add click function for confirm button
+            })
+            .on('click', function() {   //add click function for confirm button
                 $('.popup').css('display', 'none');                
             });            
 
