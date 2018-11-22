@@ -2,7 +2,7 @@
  * @Author:             ZHANG Kai
  * @Date:               2018-10-05 16:06:01
  * @Last Modified by:   ZHANG Kai
- * @Last Modified time: 2018-11-12 14:02:03
+ * @Last Modified time: 2018-11-15 11:35:54
  */
 
 @charset "UTF-8";
@@ -170,11 +170,11 @@ footer h3 a:hover {
 	color: #f0ff00;
 }
 
-.content {
+main {
 	margin-top: 60px;
 }
 
-.content a {
+main a {
 	display: block;
 	color: inherit;
 	padding: 0 5px;
@@ -182,7 +182,7 @@ footer h3 a:hover {
 	height: 100%;
 }
 
-.content a:hover {
+main a:hover {
 	background-color: var(--color-red);
 	color: #fff;
 }

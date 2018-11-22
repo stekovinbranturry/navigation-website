@@ -2,7 +2,7 @@
  * @Author:             ZHANG Kai
  * @Date:               2018-10-05 16:06:01
  * @Last Modified by:   ZHANG Kai
- * @Last Modified time: 2018-11-14 11:59:39
+ * @Last Modified time: 2018-11-14 14:36:34
  */
 
 $(function () {
@@ -33,7 +33,7 @@ function constructDOM(obj) {
             let setSection = `<section id="${key}" class="${key}">
                                     <div class="grid-container"></div>
                               </section>`;
-            $('div.content').append(setSection);
+            $('main').append(setSection);
 
             /* Grid Title */
             let getTitle = value.title;
