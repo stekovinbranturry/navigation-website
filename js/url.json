@@ -273,6 +273,32 @@
             }
         ]
     },
+    "hk": {
+        "title": "Hong Kong +852 GMT+8",
+        "icon": "img/hk.png",
+        "website": [
+            {
+                "web_title": "HK TST WOS",
+                "web_url": "https://mcdelivery-tst.mcdonalds.com/hk300/"
+            },
+            {
+                "web_title": "HK STG WOS",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/hk274/"
+            },
+            {
+                "web_title": "HK STG Config",
+                "web_url": "https://mcdelivery-stg.mcdonalds.com/config/hk274/"
+            },
+            {
+                "web_title": "HK PROD WOS",
+                "web_url": "https://mcdelivery.mcdonalds.com.hk/hk/"
+            },
+            {
+                "web_title": "HK PROD Config",
+                "web_url": "https://mcdelivery.mcdonalds.com.hk/config/hk274/"
+            }            
+        ]
+    },    
     "cn": {
         "title": "China +86 GMT+8",
         "icon": "img/cn.png",
@@ -521,8 +547,8 @@
             },
             {
                 "web_title": "JED STG Config",
-                "web_url": "https://mcdelivery-stg.rezafood.com.sa/config/"
-            },
+                "web_url": "https://mcdelivery-stg.rezafood.com.sa/jdconfig/"
+            },            
             {
                 "web_title": "JED PROD WOS",
                 "web_url": "https://jeddah.mcdelivery.com.sa/sa/jed/"
